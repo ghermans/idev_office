@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
 <div class="alert alert-info">
-<p>Gebruik deze pagina enkel voor proffesioneel gebruik!</p>
+<p>Gebruik deze pagina enkel voor professioneel gebruik!</p>
 </div>
 <div class="clearfix">&nbsp;</div>
 
