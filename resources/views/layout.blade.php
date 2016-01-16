@@ -58,7 +58,6 @@
 
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="{{ url('cases') }}">Tickets</a></li>
                                     <li class="dropdown">
                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                                       <ul class="dropdown-menu">
@@ -85,6 +84,63 @@
         </div><!--/.container-->
     </div>
 
+<div class="row">
+    <div class="footer container">
+                <div class="col-md-3">
+                    <ul class="list-unstyled footer">
+                        <li>iDevelopment<li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact & support</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                        <li><a href="#">Site status</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-unstyled">
+                        <li>Applicaties<li>
+                        <li><a href="#">Time control</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-unstyled">
+                        <li>Services<li>
+                        <li><a href="#">Web analytics</a></li>
+                        <li><a href="#">Presentations</a></li>
+                        <li><a href="#">Code snippets</a></li>
+                        <li><a href="#">Job board</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-unstyled">
+                        <li>Documentatie<li>
+                        <li><a href="#">Product Help</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-unstyled">
+                        <li>Nieuwsbrief<li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">Students & teachers</a></li>
+                        <li><a href="#">The Shop</a></li>
+                        <li><a href="#">Plans & pricing</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+      </div>
+        <div class="row">
+       <div class="container">
+                <div class="col-md-7">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Security</a>
+                </div>
+                <div class="col-md-5">
+                    <p class="pull-right">© 2015 <strong>iDevelopment</strong>. All rights reserved</p>
+                </div>
+            </div>
+        </div>
 	<!-- Scripts -->
 	<script type="text/javascript">
 	$("[data-toggle=tooltip]").tooltip();
