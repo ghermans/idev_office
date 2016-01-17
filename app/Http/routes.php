@@ -12,14 +12,6 @@
 */
 
 Route::get('/', 'HomeController@index');
-Route::get('customers/list', 'CustomersController@list');
-
-Route::get('customers/create', 'CustomersController@create');
-Route::get('customers/store', 'CustomersController@save');
-Route::get('customers/view', 'CustomersController@index');
-
-Route::get('billing', 'BillingController@index');
-Route::get('billing/view', 'BillingController@show');
 
 /*
 |--------------------------------------------------------------------------
@@ -34,4 +26,10 @@ Route::get('billing/view', 'BillingController@show');
 
 Route::group(['middleware' => ['web']], function () {
     //
+});
+
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
+
+    Route::get('/home', 'HomeController@index');
 });
