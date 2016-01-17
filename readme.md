@@ -1,6 +1,6 @@
 ## iDevelopment Staff portal
 
-This is the current portal for iDevelopment' staff.
+This is the current portal for iDevelopment's staff.
 
 ## Features
 
@@ -17,3 +17,4 @@ This is the current portal for iDevelopment' staff.
 - run composer install
 - Edit .env_example and save to .env
 - Setup cronjob * * * * * php /path/to/artisan schedule:run >> /dev/null 2>&1
+;oà)-
