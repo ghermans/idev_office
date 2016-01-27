@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index');
-
+Route::get('tools', 'ToolsController@index');
 /*
 |--------------------------------------------------------------------------
 | Application Routes
